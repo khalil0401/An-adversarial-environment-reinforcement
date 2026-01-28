@@ -1,0 +1,8 @@
+gym
+pandas
+numpy
+torch
+scikit-learn
+matplotlib
+transformers
+accelerate

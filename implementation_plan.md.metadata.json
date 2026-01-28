@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Detailed plan for reproducing the Adversarial RL-driven IDS paper using TON_IoT.\nIncludes:\n1. Paper Deconstruction (RL Formulation, Adversarial Logic).\n2. TON_IoT Adaptation Strategy.\n3. Architecture Design (Gym + PyTorch).\n4. Extension Plan (Blue Team LLM, Red Team LLM, XAI).",
+  "updatedAt": "2026-01-28T15:38:16.728552900Z"
+}

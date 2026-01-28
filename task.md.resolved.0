@@ -1,0 +1,21 @@
+# Research Project: Adversarial RL-driven IDS with LLM Extension (TON_IoT)
+
+- [ ] **Phase 1: Paper Deconstruction**
+    - [ ] Extract Methodology (Architecture, RL formulation, Adversarial logic) <!-- id: 1 -->
+    - [ ] Academic Formalization (Pseudocode, MDP, Sequence Diagrams) <!-- id: 2 -->
+    - [ ] Implicit Assumptions Analysis <!-- id: 3 -->
+- [ ] **Phase 2: Project Reconstruction (TON_IoT)**
+    - [ ] Define Project Structure & Tech Stack (PyTorch, Gym, TON_IoT) <!-- id: 4 -->
+    - [ ] Implement TON_IoT Data Preprocessing Pipeline <!-- id: 5 -->
+    - [ ] Implement RL Environment (Gym Interface) <!-- id: 6 -->
+    - [ ] Implement Agent (DDQN) & Adversarial Environment <!-- id: 7 -->
+    - [ ] Implement Training & Evaluation Logic <!-- id: 8 -->
+- [ ] **Phase 3: LLM Extension**
+    - [ ] Design Layer 1: Explainability LLM (XAI) <!-- id: 9 -->
+    - [ ] Design Layer 2: Reward Shaping LLM <!-- id: 10 -->
+    - [ ] Design Layer 3: Adversarial LLM (Self-Play) <!-- id: 11 -->
+    - [ ] Integration of LLM Layers into Core Logic <!-- id: 12 -->
+- [ ] **Phase 4: Final Research Output**
+    - [ ] Produce Updated Architecture Diagrams (Mermaid) <!-- id: 13 -->
+    - [ ] Write Algorithm Description & Novelty Analysis <!-- id: 14 -->
+    - [ ] Design Experimental Plan (Ablation, Metrics) <!-- id: 15 -->
