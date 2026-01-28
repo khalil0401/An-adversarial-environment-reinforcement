@@ -41,8 +41,8 @@ class LocalLLM(LLMInterface):
             model_name, 
             torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
             device_map="auto", 
-            trust_remote_code=True,
-            attn_implementation="eager"
+            # trust_remote_code=True, # Disabled to use native transformers implementation
+            attn_implementation="eager" 
         )
         
         self.pipe = pipeline(
