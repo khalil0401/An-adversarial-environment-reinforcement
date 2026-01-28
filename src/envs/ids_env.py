@@ -17,9 +17,9 @@ class AdversarialIDSEnv(gym.Env):
         
         # Get data
         splits = self.loader.get_splits()
-        if split == 'train':
+        if self.split == 'train':
             self.X, self.y = splits[0]
-        elif split == 'val':
+        elif self.split == 'val':
             self.X, self.y = splits[1]
         else:
             self.X, self.y = splits[2] # test
